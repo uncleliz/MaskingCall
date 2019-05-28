@@ -18,7 +18,7 @@ spec.author       = { "uncleliz" => "dinhmanhvp@gmail.com" }
 spec.platform     = :ios, "9.0"
 spec.source       = { :git => "https://github.com/uncleliz/MaskingCall.git", :tag => "1.0.1" }
 
-spec.source_files  = "MaskingCall/*.{h,swift}","MaskingCall/MaskingCall/Base/*.{h}","MaskingCall/MaskingCall/CallingVC/*.{h}","MaskingCall/MaskingCall/Models/*.{h}","MaskingCall/MaskingCall/Utils/*.{h}"
+spec.source_files  = "MaskingCall/MaskingCall/Base/*.{h}","MaskingCall/MaskingCall/CallingVC/*.{h}","MaskingCall/MaskingCall/Models/*.{h}","MaskingCall/MaskingCall/Utils/*.{h}"
 
 spec.swift_version = "4.0"
 spec.dependency "AFNetworking"

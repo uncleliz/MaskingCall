@@ -67,6 +67,7 @@ static StringeeImplement *sharedMyManager = nil;
 }
 
 - (void)didConnect:(StringeeClient *)stringeeClient isReconnecting:(BOOL)isReconnecting {
+    self.stringeeClient = stringeeClient;
     NSLog(@"didConnect");
     dispatch_async(dispatch_get_main_queue(), ^{
         if ([SPManager instance].userActivity) {
@@ -76,6 +77,7 @@ static StringeeImplement *sharedMyManager = nil;
 }
 
 - (void)didDisConnect:(StringeeClient *)stringeeClient isReconnecting:(BOOL)isReconnecting {
+    self.stringeeClient = stringeeClient;
     NSLog(@"didDisConnect");
 }
 

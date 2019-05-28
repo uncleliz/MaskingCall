@@ -177,7 +177,7 @@ static SPManager *spManager = nil;
 - (NSString*) getNumberMaskWithTrip:(NSString*)tripID withDriverPhoneNumber:(NSString*)driverPhoneNumber
 {
     NSString *strNumber = driverPhoneNumber;
-    if ([[SPManager instance] isEnableMaskingCall] == YES) {
+    if ([[SPManager instance] isEnableMaskingCall] == YES && [StringeeImplement instance].stringeeClient.hasConnected) {
         if (tripID == nil || tripID.length == 0) {
             return strNumber;
         }
