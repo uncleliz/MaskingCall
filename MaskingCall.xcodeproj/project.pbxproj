@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,44 @@
 		5DC80CD5229D88C800962089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CD3229D88C800962089 /* Main.storyboard */; };
 		5DC80CD7229D88C900962089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CD6229D88C900962089 /* Assets.xcassets */; };
 		5DC80CDA229D88C900962089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CD8229D88C900962089 /* LaunchScreen.storyboard */; };
+		5DC80D1F229D8B5A00962089 /* StringeeImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80CE3229D8B5A00962089 /* StringeeImplement.m */; };
+		5DC80D20229D8B5A00962089 /* busy_signal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CE6229D8B5A00962089 /* busy_signal.mp3 */; };
+		5DC80D21229D8B5A00962089 /* outgoing_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CE7229D8B5A00962089 /* outgoing_tone.mp3 */; };
+		5DC80D22229D8B5A00962089 /* end_call_tututu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CE8229D8B5A00962089 /* end_call_tututu.caf */; };
+		5DC80D23229D8B5A00962089 /* incoming_call.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CE9229D8B5A00962089 /* incoming_call.aif */; };
+		5DC80D24229D8B5A00962089 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CEB229D8B5A00962089 /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		5DC80D25229D8B5A00962089 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CEC229D8B5A00962089 /* IBMPlexSans-Medium.ttf */; };
+		5DC80D26229D8B5A00962089 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CED229D8B5A00962089 /* IBMPlexSans-SemiBold.ttf */; };
+		5DC80D27229D8B5A00962089 /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CEE229D8B5A00962089 /* IBMPlexSans-MediumItalic.ttf */; };
+		5DC80D28229D8B5A00962089 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CEF229D8B5A00962089 /* OFL.txt */; };
+		5DC80D29229D8B5A00962089 /* IBMPlexSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF0229D8B5A00962089 /* IBMPlexSans-LightItalic.ttf */; };
+		5DC80D2A229D8B5A00962089 /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF1229D8B5A00962089 /* IBMPlexSans-ExtraLight.ttf */; };
+		5DC80D2B229D8B5A00962089 /* IBMPlexSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF2229D8B5A00962089 /* IBMPlexSans-Thin.ttf */; };
+		5DC80D2C229D8B5A00962089 /* IBMPlexSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF3229D8B5A00962089 /* IBMPlexSans-ThinItalic.ttf */; };
+		5DC80D2D229D8B5A00962089 /* IBMPlexSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF4229D8B5A00962089 /* IBMPlexSans-BoldItalic.ttf */; };
+		5DC80D2E229D8B5A00962089 /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF5229D8B5A00962089 /* IBMPlexSans-Light.ttf */; };
+		5DC80D2F229D8B5A00962089 /* IBMPlexSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF6229D8B5A00962089 /* IBMPlexSans-Italic.ttf */; };
+		5DC80D30229D8B5A00962089 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF7229D8B5A00962089 /* IBMPlexSans-Regular.ttf */; };
+		5DC80D31229D8B5A00962089 /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF8229D8B5A00962089 /* IBMPlexSans-ExtraLightItalic.ttf */; };
+		5DC80D32229D8B5A00962089 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80CF9229D8B5A00962089 /* IBMPlexSans-Bold.ttf */; };
+		5DC80D33229D8B5A00962089 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80CFC229D8B5A00962089 /* Utils.m */; };
+		5DC80D34229D8B5A00962089 /* CalloutNumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D01229D8B5A00962089 /* CalloutNumberModel.m */; };
+		5DC80D35229D8B5A00962089 /* BeCustomerInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D02229D8B5A00962089 /* BeCustomerInfoModel.m */; };
+		5DC80D36229D8B5A00962089 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D03229D8B5A00962089 /* UserModel.m */; };
+		5DC80D37229D8B5A00962089 /* RideInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D04229D8B5A00962089 /* RideInfoModel.m */; };
+		5DC80D38229D8B5A00962089 /* CallingVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D05229D8B5A00962089 /* CallingVCModel.m */; };
+		5DC80D39229D8B5A00962089 /* ConfigMaskingCallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D08229D8B5A00962089 /* ConfigMaskingCallModel.m */; };
+		5DC80D3A229D8B5A00962089 /* CallingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80D0B229D8B5A00962089 /* CallingViewController.xib */; };
+		5DC80D3B229D8B5A00962089 /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D0D229D8B5A00962089 /* CallingViewController.m */; };
+		5DC80D3C229D8B5A00962089 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D0F229D8B5A00962089 /* Reachability.m */; };
+		5DC80D3D229D8B5A00962089 /* BeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D11229D8B5A00962089 /* BeCommon.m */; };
+		5DC80D3E229D8B5A00962089 /* CallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D12229D8B5A00962089 /* CallManager.m */; };
+		5DC80D3F229D8B5A00962089 /* SPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D13229D8B5A00962089 /* SPManager.m */; };
+		5DC80D40229D8B5A00962089 /* MKEventTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D14229D8B5A00962089 /* MKEventTracking.m */; };
+		5DC80D41229D8B5A00962089 /* PulsingAnimationCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D19229D8B5A00962089 /* PulsingAnimationCall.swift */; };
+		5DC80D42229D8B5A00962089 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D1B229D8B5A00962089 /* HTTPClient.m */; };
+		5DC80D43229D8B5A00962089 /* GlobalService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80D1E229D8B5A00962089 /* GlobalService.m */; };
+		5DC80D46229D8C4900962089 /* MaskingCall.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5DC80D45229D8C4900962089 /* MaskingCall.podspec */; };
 		B4C59A3AAB0598342CF253ED /* Pods_MaskingCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B9FFA4F9EFCAAF23DBD837 /* Pods_MaskingCall.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +62,61 @@
 		5DC80CD6229D88C900962089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC80CD9229D88C900962089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DC80CDB229D88C900962089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC80CE3229D8B5A00962089 /* StringeeImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringeeImplement.m; sourceTree = "<group>"; };
+		5DC80CE4229D8B5A00962089 /* StringeeImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringeeImplement.h; sourceTree = "<group>"; };
+		5DC80CE6229D8B5A00962089 /* busy_signal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busy_signal.mp3; sourceTree = "<group>"; };
+		5DC80CE7229D8B5A00962089 /* outgoing_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = outgoing_tone.mp3; sourceTree = "<group>"; };
+		5DC80CE8229D8B5A00962089 /* end_call_tututu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = end_call_tututu.caf; sourceTree = "<group>"; };
+		5DC80CE9229D8B5A00962089 /* incoming_call.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = incoming_call.aif; sourceTree = "<group>"; };
+		5DC80CEB229D8B5A00962089 /* IBMPlexSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CEC229D8B5A00962089 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		5DC80CED229D8B5A00962089 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		5DC80CEE229D8B5A00962089 /* IBMPlexSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CEF229D8B5A00962089 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		5DC80CF0229D8B5A00962089 /* IBMPlexSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CF1229D8B5A00962089 /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5DC80CF2229D8B5A00962089 /* IBMPlexSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Thin.ttf"; sourceTree = "<group>"; };
+		5DC80CF3229D8B5A00962089 /* IBMPlexSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CF4229D8B5A00962089 /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CF5229D8B5A00962089 /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		5DC80CF6229D8B5A00962089 /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
+		5DC80CF7229D8B5A00962089 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		5DC80CF8229D8B5A00962089 /* IBMPlexSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		5DC80CF9229D8B5A00962089 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		5DC80CFB229D8B5A00962089 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		5DC80CFC229D8B5A00962089 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		5DC80CFE229D8B5A00962089 /* CallingVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallingVCModel.h; sourceTree = "<group>"; };
+		5DC80CFF229D8B5A00962089 /* RideInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideInfoModel.h; sourceTree = "<group>"; };
+		5DC80D00229D8B5A00962089 /* ConfigMaskingCallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigMaskingCallModel.h; sourceTree = "<group>"; };
+		5DC80D01229D8B5A00962089 /* CalloutNumberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutNumberModel.m; sourceTree = "<group>"; };
+		5DC80D02229D8B5A00962089 /* BeCustomerInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeCustomerInfoModel.m; sourceTree = "<group>"; };
+		5DC80D03229D8B5A00962089 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		5DC80D04229D8B5A00962089 /* RideInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideInfoModel.m; sourceTree = "<group>"; };
+		5DC80D05229D8B5A00962089 /* CallingVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingVCModel.m; sourceTree = "<group>"; };
+		5DC80D06229D8B5A00962089 /* BeCustomerInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeCustomerInfoModel.h; sourceTree = "<group>"; };
+		5DC80D07229D8B5A00962089 /* CalloutNumberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutNumberModel.h; sourceTree = "<group>"; };
+		5DC80D08229D8B5A00962089 /* ConfigMaskingCallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigMaskingCallModel.m; sourceTree = "<group>"; };
+		5DC80D09229D8B5A00962089 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		5DC80D0B229D8B5A00962089 /* CallingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallingViewController.xib; sourceTree = "<group>"; };
+		5DC80D0C229D8B5A00962089 /* CallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallingViewController.h; sourceTree = "<group>"; };
+		5DC80D0D229D8B5A00962089 /* CallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingViewController.m; sourceTree = "<group>"; };
+		5DC80D0F229D8B5A00962089 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5DC80D10229D8B5A00962089 /* MKEventTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEventTracking.h; sourceTree = "<group>"; };
+		5DC80D11229D8B5A00962089 /* BeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeCommon.m; sourceTree = "<group>"; };
+		5DC80D12229D8B5A00962089 /* CallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager.m; sourceTree = "<group>"; };
+		5DC80D13229D8B5A00962089 /* SPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPManager.m; sourceTree = "<group>"; };
+		5DC80D14229D8B5A00962089 /* MKEventTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEventTracking.m; sourceTree = "<group>"; };
+		5DC80D15229D8B5A00962089 /* BeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeCommon.h; sourceTree = "<group>"; };
+		5DC80D16229D8B5A00962089 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5DC80D17229D8B5A00962089 /* SPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPManager.h; sourceTree = "<group>"; };
+		5DC80D18229D8B5A00962089 /* CallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager.h; sourceTree = "<group>"; };
+		5DC80D19229D8B5A00962089 /* PulsingAnimationCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsingAnimationCall.swift; sourceTree = "<group>"; };
+		5DC80D1B229D8B5A00962089 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		5DC80D1C229D8B5A00962089 /* GlobalService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalService.h; sourceTree = "<group>"; };
+		5DC80D1D229D8B5A00962089 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		5DC80D1E229D8B5A00962089 /* GlobalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalService.m; sourceTree = "<group>"; };
+		5DC80D44229D8C2B00962089 /* MaskingCall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaskingCall.entitlements; sourceTree = "<group>"; };
+		5DC80D45229D8C4900962089 /* MaskingCall.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MaskingCall.podspec; sourceTree = SOURCE_ROOT; };
 		666DD2C1D969276A35F3318F /* Pods-MaskingCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskingCall.release.xcconfig"; path = "Target Support Files/Pods-MaskingCall/Pods-MaskingCall.release.xcconfig"; sourceTree = "<group>"; };
 		EBB3F4A8D9AD2084ABD88956 /* Pods-MaskingCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskingCall.debug.xcconfig"; path = "Target Support Files/Pods-MaskingCall/Pods-MaskingCall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,14 +154,141 @@
 		5DC80CCE229D88C800962089 /* MaskingCall */ = {
 			isa = PBXGroup;
 			children = (
+				5DC80D44229D8C2B00962089 /* MaskingCall.entitlements */,
 				5DC80CCF229D88C800962089 /* AppDelegate.swift */,
 				5DC80CD1229D88C800962089 /* ViewController.swift */,
 				5DC80CD3229D88C800962089 /* Main.storyboard */,
+				5DC80CE1229D8B5A00962089 /* MaskingCall */,
 				5DC80CD6229D88C900962089 /* Assets.xcassets */,
+				5DC80D45229D8C4900962089 /* MaskingCall.podspec */,
 				5DC80CD8229D88C900962089 /* LaunchScreen.storyboard */,
 				5DC80CDB229D88C900962089 /* Info.plist */,
 			);
 			path = MaskingCall;
+			sourceTree = "<group>";
+		};
+		5DC80CE1229D8B5A00962089 /* MaskingCall */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CE2229D8B5A00962089 /* StringeeImplement */,
+				5DC80CE5229D8B5A00962089 /* Resources */,
+				5DC80CEA229D8B5A00962089 /* IBM_Plex_Sans */,
+				5DC80CFA229D8B5A00962089 /* Utils */,
+				5DC80CFD229D8B5A00962089 /* Models */,
+				5DC80D0A229D8B5A00962089 /* CallingVC */,
+				5DC80D0E229D8B5A00962089 /* Base */,
+				5DC80D1A229D8B5A00962089 /* Services */,
+			);
+			path = MaskingCall;
+			sourceTree = "<group>";
+		};
+		5DC80CE2229D8B5A00962089 /* StringeeImplement */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CE3229D8B5A00962089 /* StringeeImplement.m */,
+				5DC80CE4229D8B5A00962089 /* StringeeImplement.h */,
+			);
+			path = StringeeImplement;
+			sourceTree = "<group>";
+		};
+		5DC80CE5229D8B5A00962089 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CE6229D8B5A00962089 /* busy_signal.mp3 */,
+				5DC80CE7229D8B5A00962089 /* outgoing_tone.mp3 */,
+				5DC80CE8229D8B5A00962089 /* end_call_tututu.caf */,
+				5DC80CE9229D8B5A00962089 /* incoming_call.aif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DC80CEA229D8B5A00962089 /* IBM_Plex_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CEB229D8B5A00962089 /* IBMPlexSans-SemiBoldItalic.ttf */,
+				5DC80CEC229D8B5A00962089 /* IBMPlexSans-Medium.ttf */,
+				5DC80CED229D8B5A00962089 /* IBMPlexSans-SemiBold.ttf */,
+				5DC80CEE229D8B5A00962089 /* IBMPlexSans-MediumItalic.ttf */,
+				5DC80CEF229D8B5A00962089 /* OFL.txt */,
+				5DC80CF0229D8B5A00962089 /* IBMPlexSans-LightItalic.ttf */,
+				5DC80CF1229D8B5A00962089 /* IBMPlexSans-ExtraLight.ttf */,
+				5DC80CF2229D8B5A00962089 /* IBMPlexSans-Thin.ttf */,
+				5DC80CF3229D8B5A00962089 /* IBMPlexSans-ThinItalic.ttf */,
+				5DC80CF4229D8B5A00962089 /* IBMPlexSans-BoldItalic.ttf */,
+				5DC80CF5229D8B5A00962089 /* IBMPlexSans-Light.ttf */,
+				5DC80CF6229D8B5A00962089 /* IBMPlexSans-Italic.ttf */,
+				5DC80CF7229D8B5A00962089 /* IBMPlexSans-Regular.ttf */,
+				5DC80CF8229D8B5A00962089 /* IBMPlexSans-ExtraLightItalic.ttf */,
+				5DC80CF9229D8B5A00962089 /* IBMPlexSans-Bold.ttf */,
+			);
+			path = IBM_Plex_Sans;
+			sourceTree = "<group>";
+		};
+		5DC80CFA229D8B5A00962089 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CFB229D8B5A00962089 /* Utils.h */,
+				5DC80CFC229D8B5A00962089 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DC80CFD229D8B5A00962089 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80CFE229D8B5A00962089 /* CallingVCModel.h */,
+				5DC80CFF229D8B5A00962089 /* RideInfoModel.h */,
+				5DC80D00229D8B5A00962089 /* ConfigMaskingCallModel.h */,
+				5DC80D01229D8B5A00962089 /* CalloutNumberModel.m */,
+				5DC80D02229D8B5A00962089 /* BeCustomerInfoModel.m */,
+				5DC80D03229D8B5A00962089 /* UserModel.m */,
+				5DC80D04229D8B5A00962089 /* RideInfoModel.m */,
+				5DC80D05229D8B5A00962089 /* CallingVCModel.m */,
+				5DC80D06229D8B5A00962089 /* BeCustomerInfoModel.h */,
+				5DC80D07229D8B5A00962089 /* CalloutNumberModel.h */,
+				5DC80D08229D8B5A00962089 /* ConfigMaskingCallModel.m */,
+				5DC80D09229D8B5A00962089 /* UserModel.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DC80D0A229D8B5A00962089 /* CallingVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80D0B229D8B5A00962089 /* CallingViewController.xib */,
+				5DC80D0C229D8B5A00962089 /* CallingViewController.h */,
+				5DC80D0D229D8B5A00962089 /* CallingViewController.m */,
+			);
+			path = CallingVC;
+			sourceTree = "<group>";
+		};
+		5DC80D0E229D8B5A00962089 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80D0F229D8B5A00962089 /* Reachability.m */,
+				5DC80D10229D8B5A00962089 /* MKEventTracking.h */,
+				5DC80D11229D8B5A00962089 /* BeCommon.m */,
+				5DC80D12229D8B5A00962089 /* CallManager.m */,
+				5DC80D13229D8B5A00962089 /* SPManager.m */,
+				5DC80D14229D8B5A00962089 /* MKEventTracking.m */,
+				5DC80D15229D8B5A00962089 /* BeCommon.h */,
+				5DC80D16229D8B5A00962089 /* Reachability.h */,
+				5DC80D17229D8B5A00962089 /* SPManager.h */,
+				5DC80D18229D8B5A00962089 /* CallManager.h */,
+				5DC80D19229D8B5A00962089 /* PulsingAnimationCall.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5DC80D1A229D8B5A00962089 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5DC80D1B229D8B5A00962089 /* HTTPClient.m */,
+				5DC80D1C229D8B5A00962089 /* GlobalService.h */,
+				5DC80D1D229D8B5A00962089 /* HTTPClient.h */,
+				5DC80D1E229D8B5A00962089 /* GlobalService.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		CC8545D1E964200A8BAFCD1E /* Pods */ = {
@@ -77,7 +297,6 @@
 				EBB3F4A8D9AD2084ABD88956 /* Pods-MaskingCall.debug.xcconfig */,
 				666DD2C1D969276A35F3318F /* Pods-MaskingCall.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +342,14 @@
 				TargetAttributes = {
 					5DC80CCB229D88C800962089 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -149,9 +376,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC80D32229D8B5A00962089 /* IBMPlexSans-Bold.ttf in Resources */,
+				5DC80D2E229D8B5A00962089 /* IBMPlexSans-Light.ttf in Resources */,
 				5DC80CDA229D88C900962089 /* LaunchScreen.storyboard in Resources */,
+				5DC80D27229D8B5A00962089 /* IBMPlexSans-MediumItalic.ttf in Resources */,
+				5DC80D31229D8B5A00962089 /* IBMPlexSans-ExtraLightItalic.ttf in Resources */,
+				5DC80D2C229D8B5A00962089 /* IBMPlexSans-ThinItalic.ttf in Resources */,
+				5DC80D29229D8B5A00962089 /* IBMPlexSans-LightItalic.ttf in Resources */,
+				5DC80D21229D8B5A00962089 /* outgoing_tone.mp3 in Resources */,
+				5DC80D26229D8B5A00962089 /* IBMPlexSans-SemiBold.ttf in Resources */,
+				5DC80D24229D8B5A00962089 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */,
+				5DC80D2D229D8B5A00962089 /* IBMPlexSans-BoldItalic.ttf in Resources */,
+				5DC80D20229D8B5A00962089 /* busy_signal.mp3 in Resources */,
+				5DC80D28229D8B5A00962089 /* OFL.txt in Resources */,
+				5DC80D46229D8C4900962089 /* MaskingCall.podspec in Resources */,
 				5DC80CD7229D88C900962089 /* Assets.xcassets in Resources */,
+				5DC80D30229D8B5A00962089 /* IBMPlexSans-Regular.ttf in Resources */,
+				5DC80D23229D8B5A00962089 /* incoming_call.aif in Resources */,
+				5DC80D2B229D8B5A00962089 /* IBMPlexSans-Thin.ttf in Resources */,
+				5DC80D25229D8B5A00962089 /* IBMPlexSans-Medium.ttf in Resources */,
+				5DC80D2A229D8B5A00962089 /* IBMPlexSans-ExtraLight.ttf in Resources */,
+				5DC80D3A229D8B5A00962089 /* CallingViewController.xib in Resources */,
 				5DC80CD5229D88C800962089 /* Main.storyboard in Resources */,
+				5DC80D2F229D8B5A00962089 /* IBMPlexSans-Italic.ttf in Resources */,
+				5DC80D22229D8B5A00962089 /* end_call_tututu.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +453,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC80CD2229D88C800962089 /* ViewController.swift in Sources */,
+				5DC80D3F229D8B5A00962089 /* SPManager.m in Sources */,
+				5DC80D42229D8B5A00962089 /* HTTPClient.m in Sources */,
+				5DC80D38229D8B5A00962089 /* CallingVCModel.m in Sources */,
 				5DC80CD0229D88C800962089 /* AppDelegate.swift in Sources */,
+				5DC80D36229D8B5A00962089 /* UserModel.m in Sources */,
+				5DC80D41229D8B5A00962089 /* PulsingAnimationCall.swift in Sources */,
+				5DC80D39229D8B5A00962089 /* ConfigMaskingCallModel.m in Sources */,
+				5DC80D37229D8B5A00962089 /* RideInfoModel.m in Sources */,
+				5DC80D35229D8B5A00962089 /* BeCustomerInfoModel.m in Sources */,
+				5DC80D3B229D8B5A00962089 /* CallingViewController.m in Sources */,
+				5DC80D43229D8B5A00962089 /* GlobalService.m in Sources */,
+				5DC80D40229D8B5A00962089 /* MKEventTracking.m in Sources */,
+				5DC80D3D229D8B5A00962089 /* BeCommon.m in Sources */,
+				5DC80D34229D8B5A00962089 /* CalloutNumberModel.m in Sources */,
+				5DC80D1F229D8B5A00962089 /* StringeeImplement.m in Sources */,
+				5DC80D3C229D8B5A00962089 /* Reachability.m in Sources */,
+				5DC80D33229D8B5A00962089 /* Utils.m in Sources */,
+				5DC80D3E229D8B5A00962089 /* CallManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,9 +617,11 @@
 			baseConfigurationReference = EBB3F4A8D9AD2084ABD88956 /* Pods-MaskingCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaskingCall/MaskingCall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5TV4A24RH;
 				INFOPLIST_FILE = MaskingCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,9 +638,11 @@
 			baseConfigurationReference = 666DD2C1D969276A35F3318F /* Pods-MaskingCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaskingCall/MaskingCall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5TV4A24RH;
 				INFOPLIST_FILE = MaskingCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
