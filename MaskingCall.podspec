@@ -16,9 +16,9 @@ spec.homepage     = "https://github.com/uncleliz/MaskingCall.git"
 spec.license      = { :type => "MIT", :text => "The MIT License (MIT) \n Copyright (c) uncleliz <dinhmanhvp@gmail.com> \n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files" }
 spec.author       = { "uncleliz" => "dinhmanhvp@gmail.com" }
 spec.platform     = :ios, "9.0"
-spec.source       = { :git => "https://github.com/uncleliz/MaskingCall.git", :tag => "1.0.0" }
+spec.source       = { :git => "https://github.com/uncleliz/MaskingCall.git", :tag => "1.0.1" }
 
-#spec.source_files  = "MaskingCall/*.{h}","MaskingCall/MaskingCall/ /Manager/*.{h}","MaskingCall/MaskingCall/CallingVC/*.{h}","MaskingCall/MaskingCall/Models/*.{h}","MaskingCall/MaskingCall/Utils/*.{h}"
+spec.source_files  = "MaskingCall/*.{h,swift}","MaskingCall/MaskingCall/Base/*.{h}","MaskingCall/MaskingCall/CallingVC/*.{h}","MaskingCall/MaskingCall/Models/*.{h}","MaskingCall/MaskingCall/Utils/*.{h}"
 
 spec.swift_version = "4.0"
 spec.dependency "AFNetworking"
